@@ -1,0 +1,64 @@
+metadata
+	file_info
+		in_num HCXXX
+		fname HCXXX_2001-01-01_awake_cycle1_epoch1_222000.csv
+		path /Users/natasharecoder/Documents/Jackie/CardioPy/example_run/HCXXX_2001-01-01_awake_cycle1_epoch1_222000.csv
+		rpeak_polarity negative
+		start_date 2001-01-01
+		sleep_stage awake
+		cycle cycle1
+		epoch epoch1
+		start_time 2001-01-01 22:20:00
+	analysis_info
+		s_freq 250.0
+		cycle_len_secs 299.996
+		NaNs(samples) 12500
+		NaNs(secs) 50.0
+		smooth False
+		pan_tompkins True
+		psd_method denoised multitaper
+		confidence_intervals bootstrapping
+		itype nn
+		artifacts_rmvd 0 false peaks (removed); 0 missed peaks (added); 0 ibis removed (from NaN data)
+		s_freq_interp 250.0
+time_stats
+	linear
+		HR_avg 64.95936698032506
+		HR_max 84.65011286681715
+		HR_min 8.15749401783772
+		IBI_mean 923.6543209876543
+		SDNN 1934.4589929244685
+		RMSSD 2748.2042546701286
+		pXX20 38.50931677018634
+		pXX50 8.695652173913043
+freq_stats
+	totals
+		total_pwr 9130354509.52316
+		lf/hf 30.92390042731221
+	ulf
+		freq_range None
+		pwr_ms2 None
+		pwr_peak None
+		pwr_log None
+		pwr_% None
+		pwr_nu None
+	vlf
+		freq_range (0.0, 0.04)
+		pwr_ms2 6536289706.2446375
+		pwr_peak 0.0078125
+		pwr_log 22.600635518222635
+		pwr_% 71.58856427126837
+	lf
+		freq_range (0.04, 0.15)
+		pwr_ms2 2512807038.1384215
+		pwr_peak 0.046875
+		pwr_log 21.644666307099474
+		pwr_% 27.5214619050937
+		pwr_nu 96.86755068580386
+	hf
+		freq_range (0.15, 0.4)
+		pwr_ms2 81257765.14010155
+		pwr_peak 0.16015625
+		pwr_log 18.213136945562603
+		pwr_% 0.8899738236379311
+		pwr_nu 3.1324493141961405
