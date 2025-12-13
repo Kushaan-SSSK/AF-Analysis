@@ -11,7 +11,6 @@ def main():
 
     df = pd.read_csv(results_file)
 
-    
     summary = df.groupby('file').agg(
         total_windows=('window_idx', 'count'),
         valid_windows=('peak_count', lambda x: (x > 5).sum()), 
@@ -23,7 +22,6 @@ def main():
 
     summary['af_burden'] = summary['af_burden'] * 100
     
-    # Save summary to CSV
     summary_out_path = os.path.join(base_dir, "Results", "final_summary_report.csv")
     summary.to_csv(summary_out_path, index=False)
     print(f"Summary report saved to: {summary_out_path}")

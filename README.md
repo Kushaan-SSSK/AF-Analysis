@@ -55,3 +55,25 @@ python visualize_ekg.py
 This will create a `Verification_Plots` folder containing:
 *   **Trace Plots**: Shows the EKG signal with red dots on detected peaks. Use this to confirm it's not missing beats.
 *   **Metric Plots**: Shows the AF burden (pRR3.25%) over time for each recording.
+
+## 6. Summarizing Results (Optional)
+
+To generate a high-level summary (Per-File AF Burden, Mean HR):
+
+```bash
+python summarize_analysis.py
+```
+
+
+## 7. Validation (ROC Analysis)
+
+To generate Receiver Operating Characteristic (ROC) curves and calculate sensitivity/specificity (requires ground truth labels):
+
+1.  Calculates `pRR3.25%` scores for all files.
+2.  **Note:** You must manually annotate the output CSV with a `label` column (1 for AF, 0 for SR) to generate the final plots.
+
+```bash
+python run_roc_analysis.py
+```
+
+

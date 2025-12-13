@@ -7,10 +7,6 @@ import os
 import glob
 
 def load_data(file_path):
-    """
-    Load the text-based .xls file.
-    Assumes tab-separated values.
-    """
     try:
         df = pd.read_csv(file_path, sep='\t')
         if 'Raw Ch 1' not in df.columns:
@@ -21,29 +17,18 @@ def load_data(file_path):
         return None
 
 def preprocess_ecg(ecg_signal, sampling_rate=1000):
-    """
-    Clean the ECG signal using neurokit2.
-    """
-    
     cleaned_ecg = nk.ecg_clean(ecg_signal, sampling_rate=sampling_rate, method="biosppy")
     return cleaned_ecg
 
 def adaptive_threshold_peaks(signal, sampling_rate=1000, window_sec=0.1, upshift_pct=0.035):
-    """
-    Adaptive thresholding for R-peak detection (CardioPy style).
-    """
     window_size = int(window_sec * sampling_rate)
     
-   
     mavg = pd.Series(signal).rolling(window=window_size, center=True).mean().fillna(0).values
     
-   
     signal_range = np.max(signal) - np.min(signal)
     threshold = mavg + (upshift_pct * signal_range)
     
-    
     above_threshold = signal > threshold
-    
     
     peaks = []
     
@@ -51,7 +36,6 @@ def adaptive_threshold_peaks(signal, sampling_rate=1000, window_sec=0.1, upshift
     starts = np.where(diff == 1)[0] + 1
     ends = np.where(diff == -1)[0] + 1
     
-   
     if above_threshold[0]:
         starts = np.insert(starts, 0, 0)
     if above_threshold[-1]:
@@ -63,7 +47,6 @@ def adaptive_threshold_peaks(signal, sampling_rate=1000, window_sec=0.1, upshift
         ends = ends[:len(starts)]
         
     for start, end in zip(starts, ends):
-       
         segment = signal[start:end]
         if len(segment) == 0: continue
         peak_idx = start + np.argmax(segment)
@@ -72,15 +55,10 @@ def adaptive_threshold_peaks(signal, sampling_rate=1000, window_sec=0.1, upshift
     return np.array(peaks)
 
 def detect_peaks(cleaned_ecg, sampling_rate=1000):
-    """
-    Robust R-peak detection for mouse EKG.
-    """
-   
     candidates = []
     
     for inverted in [False, True]:
         sig = cleaned_ecg * -1 if inverted else cleaned_ecg
-        
         
         try:
             _, info = nk.ecg_peaks(sig, sampling_rate=sampling_rate, method="neurokit")
@@ -90,9 +68,7 @@ def detect_peaks(cleaned_ecg, sampling_rate=1000):
         except:
             pass
             
-        
         try:
-            
             p5, p95 = np.percentile(sig, [5, 95])
             amp = p95 - p5
             min_prominence = amp * 0.15
@@ -102,7 +78,6 @@ def detect_peaks(cleaned_ecg, sampling_rate=1000):
                 candidates.append({'peaks': peaks, 'method': 'prominence', 'inverted': inverted})
         except:
             pass
-
         
         try:
             peaks = adaptive_threshold_peaks(sig, sampling_rate=sampling_rate)
@@ -111,7 +86,6 @@ def detect_peaks(cleaned_ecg, sampling_rate=1000):
         except:
             pass
 
-    
     best_peaks = np.array([])
     best_score = float('inf')
     best_meta = None
@@ -120,16 +94,12 @@ def detect_peaks(cleaned_ecg, sampling_rate=1000):
         peaks = cand['peaks']
         if len(peaks) < 2: continue
         
-        
         rr_sec = np.diff(peaks) / sampling_rate
         bpm = 60 / np.mean(rr_sec)
         
-       
         if 300 < bpm < 900:
-            
             cv = np.std(rr_sec) / np.mean(rr_sec)
             
-           
             if cv < best_score:
                 best_score = cv
                 best_peaks = peaks
@@ -143,14 +113,10 @@ def detect_peaks(cleaned_ecg, sampling_rate=1000):
         return np.array([])
 
 def calculate_poincare_metrics(r_peaks, sampling_rate=1000):
-    """
-    Calculate SD1, SD2, and Dispersion (d).
-    """
     if len(r_peaks) < 3:
         return None
         
-    rr_intervals = np.diff(r_peaks) / sampling_rate * 1000 # ms
-    
+    rr_intervals = np.diff(r_peaks) / sampling_rate * 1000 
     
     try:
         hrv_nonlinear = nk.hrv_nonlinear(r_peaks, sampling_rate=sampling_rate)
@@ -159,27 +125,19 @@ def calculate_poincare_metrics(r_peaks, sampling_rate=1000):
     except:
         sd1, sd2 = 0, 0
         
-    
     return {'sd1': sd1, 'sd2': sd2, 'rr_mean': np.mean(rr_intervals), 'rr_cv': np.std(rr_intervals)/np.mean(rr_intervals)}
 
 def calculate_prr_metrics(r_peaks, sampling_rate=1000, threshold_pct=3.25):
-    """
-    Calculate pRRx% metric: percentage of consecutive RR intervals 
-    with relative change >= threshold_pct.
-    """
     if len(r_peaks) < 3:
         return None
         
-    rr_intervals = np.diff(r_peaks) # in samples
+    rr_intervals = np.diff(r_peaks)
     
-    # Calculate relative differences
-    # d_i = |RR_{i} - RR_{i-1}| / RR_{i-1} * 100
     rr_diffs = np.abs(np.diff(rr_intervals))
     rr_prev = rr_intervals[:-1]
     
     relative_diffs = (rr_diffs / rr_prev) * 100
     
-    # Calculate percentage above threshold
     count_above = np.sum(relative_diffs >= threshold_pct)
     total_intervals = len(relative_diffs)
     
@@ -195,7 +153,6 @@ def analyze_file(file_path, output_dir, window_length_sec=10):
     df = load_data(file_path)
     if df is None: return
     
-    # Estimate sampling rate
     t0 = df['Time'].iloc[0]
     t1 = df['Time'].iloc[1]
     fs = int(round(1 / (t1 - t0)))
@@ -203,19 +160,16 @@ def analyze_file(file_path, output_dir, window_length_sec=10):
     
     signal = df['Raw Ch 1'].values
     
-    # Preprocess
     clean_signal = preprocess_ecg(signal, sampling_rate=fs)
     
-    # Detect peaks
     peaks = detect_peaks(clean_signal, sampling_rate=fs)
     print(f"  Peaks: {len(peaks)}")
     
-    # Windowing
     total_duration_sec = len(signal) / fs
     num_windows = int(total_duration_sec // window_length_sec)
     
     results = []
-    af_threshold = 75.32 # From paper for pRR3.25%
+    af_threshold = 75.32 
     
     for i in range(num_windows):
         start_time = i * window_length_sec
@@ -238,7 +192,6 @@ def analyze_file(file_path, output_dir, window_length_sec=10):
         
         if metrics:
             row.update(metrics)
-            # AF Classification based on paper threshold
             row['is_af'] = metrics['pRR_3.25'] > af_threshold
         else:
             row['is_af'] = False
@@ -247,18 +200,15 @@ def analyze_file(file_path, output_dir, window_length_sec=10):
             
         results.append(row)
         
-    # Save results
     res_df = pd.DataFrame(results)
     out_name = os.path.basename(file_path).replace('.xls', '_results.csv')
     res_df.to_csv(os.path.join(output_dir, out_name), index=False)
     
-    # Print summary for this file
     af_windows = res_df['is_af'].sum()
     print(f"  AF Windows: {af_windows}/{num_windows} ({af_windows/num_windows*100:.1f}%)")
     return res_df
 
 def main():
-   
     base_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(base_dir, "EKG data")
     output_dir = os.path.join(base_dir, "Results")
@@ -269,7 +219,6 @@ def main():
 
     os.makedirs(output_dir, exist_ok=True)
     
-   
     files = glob.glob(os.path.join(data_dir, "*_Export.xls"))
     print(f"Found {len(files)} files in {data_dir}")
     
