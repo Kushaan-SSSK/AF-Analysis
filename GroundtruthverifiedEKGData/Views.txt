@@ -1,0 +1,152 @@
+DISPLAY_START: 11.0563584000000006
+TOOLBAR_VISIBLE_SETTINGS: 245760
+VOLTMETER_PANEL_SIZE: 300
+SPIRO_CAL_EXPORT_INDICES: 4294967295
+ECG_CAL_EXPORT_INDICES: 4294967295
+BP_CAL_EXPORT_INDICES: 4294967295
+PEAK_CAL_EXPORT_INDICES: 4294967295
+CURRENT_VIEW_INDEX: 0
+FILE_TIME_MODE: 0
+NUM_VIEWS 1
+BEGIN_VIEW: Default View:
+    CHART_V2_CHANNEL: 4: 1.0000000000000000: 0: -1: 1.0000000000000000: 1: -1: 1.0000000000000000: 128: -1: 1.0000000000000000: 129: -1: 
+    VOLT_CHANNEL: 4: 1.0000000000000000: 0: 0: 0: 0: 340282346638528859811704183484516925440.0000000000000000: -340282346638528859811704183484516925440.0000000000000000: 1.0000000000000000: 1: 0: 0: 0: 340282346638528859811704183484516925440.0000000000000000: -340282346638528859811704183484516925440.0000000000000000: 1.0000000000000000: 128: 0: 0: 0: 340282346638528859811704183484516925440.0000000000000000: -340282346638528859811704183484516925440.0000000000000000: 1.0000000000000000: 129: 0: 0: 0: 340282346638528859811704183484516925440.0000000000000000: -340282346638528859811704183484516925440.0000000000000000: 
+    XY_CHANNEL: -1: -1: 
+    SHOWXY_VOLTMETER: 0
+VOLTMETER_PERSPECTIVE_STR
+layout2|name=Main Toolbar;caption=Toolbar;state=2237180;dir=1;layer=10;row=1;pos=1;prop=100000;bestw=1089;besth=61;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Views;caption=Views Toolbar;state=2237180;dir=1;layer=10;row=1;pos=1092;prop=100000;bestw=206;besth=61;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Macro bar;caption=Macro bar;state=2237180;dir=1;layer=10;row=1;pos=1300;prop=100000;bestw=68;besth=61;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Main;caption=;state=256;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=18;besth=18;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=XY;caption=XY;state=14681598;dir=2;layer=1;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=500;floath=700|name=Journal;caption=Journal;state=14681598;dir=2;layer=2;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=500;floath=700|name=EEG;caption=EEG Montage;state=14681598;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=500;floath=700|name=EEG Impedance;caption=EEG Impedance;state=14681598;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=500;floath=700|name=Image;caption=Image Display;state=14681599;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=500;floath=700|name=Media;caption=Media Display;state=14681599;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=500;floath=700|name=EyeTracking;caption=EyeTracking;state=14681599;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=500;floath=700|name=Biofeedback;caption=BioFeedback Display;state=14681599;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=240;floath=500|name=IMU Display;caption=IMU Display;state=14681599;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=240;floath=500|name=SAMC System;caption=SAMC System;state=14681599;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=400;floath=500|name=VideoPreview;caption=Video Preview;state=14681599;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=640;floath=480|name=Video Playback;caption=Video Playback;state=14681599;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=500;besth=-1;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=640;floath=480|name=Volt 0;caption=Volt 0;state=2098687;dir=4;layer=4;row=0;pos=0;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 1;caption=Volt 1;state=2098687;dir=4;layer=4;row=0;pos=1;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 2;caption=Volt 2;state=2098687;dir=4;layer=4;row=0;pos=2;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 3;caption=Volt 3;state=2098687;dir=4;layer=4;row=0;pos=3;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 4;caption=Volt 4;state=2098687;dir=4;layer=4;row=0;pos=4;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 5;caption=Volt 5;state=2098687;dir=4;layer=4;row=0;pos=5;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 6;caption=Volt 6;state=2098687;dir=4;layer=4;row=0;pos=6;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 7;caption=Volt 7;state=2098687;dir=4;layer=4;row=0;pos=7;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 8;caption=Volt 8;state=2098687;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 9;caption=Volt 9;state=2098687;dir=4;layer=3;row=0;pos=1;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 10;caption=Volt 10;state=2098687;dir=4;layer=3;row=0;pos=2;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 11;caption=Volt 11;state=2098687;dir=4;layer=3;row=0;pos=3;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 12;caption=Volt 12;state=2098687;dir=4;layer=3;row=0;pos=4;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 13;caption=Volt 13;state=2098687;dir=4;layer=3;row=0;pos=5;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 14;caption=Volt 14;state=2098687;dir=4;layer=3;row=0;pos=6;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 15;caption=Volt 15;state=2098687;dir=4;layer=3;row=0;pos=7;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 16;caption=Volt 16;state=2098687;dir=4;layer=2;row=0;pos=0;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 17;caption=Volt 17;state=2098687;dir=4;layer=2;row=0;pos=1;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 18;caption=Volt 18;state=2098687;dir=4;layer=2;row=0;pos=2;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 19;caption=Volt 19;state=2098687;dir=4;layer=2;row=0;pos=3;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 20;caption=Volt 20;state=2098687;dir=4;layer=2;row=0;pos=4;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 21;caption=Volt 21;state=2098687;dir=4;layer=2;row=0;pos=5;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 22;caption=Volt 22;state=2098687;dir=4;layer=2;row=0;pos=6;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 23;caption=Volt 23;state=2098687;dir=4;layer=2;row=0;pos=7;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 24;caption=Volt 24;state=2098687;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 25;caption=Volt 25;state=2098687;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 26;caption=Volt 26;state=2098687;dir=4;layer=1;row=0;pos=2;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 27;caption=Volt 27;state=2098687;dir=4;layer=1;row=0;pos=3;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 28;caption=Volt 28;state=2098687;dir=4;layer=1;row=0;pos=4;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 29;caption=Volt 29;state=2098687;dir=4;layer=1;row=0;pos=5;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 30;caption=Volt 30;state=2098687;dir=4;layer=1;row=0;pos=6;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Volt 31;caption=Volt 31;state=2098687;dir=4;layer=1;row=0;pos=7;prop=100000;bestw=150;besth=50;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=200;floath=100|name=Time;caption=Time;state=2098627;dir=2;layer=0;row=1;pos=0;prop=100000;bestw=450;besth=100;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=450;floath=100|dock_size(1,10,1)=63|dock_size(5,0,0)=18|
+END_VIEW
+END_MAIN_VIEWS 
+NUM_AWIN_FN_STRUCT 0
+AWIN_FN_STRUCT_END 
+BEGIN_MARKS
+END_MARKS
+BEGIN_SWEEP_GROUPS
+END_SWEEP_GROUPS
+NUM_XYWIN_FN_STRUCT 0
+XYWIN_FN_STRUCT_END 
+NUM_FFTWIN_FN_STRUCT 0
+FFTWIN_FN_STRUCT_END 
+NUM_ONLINEXY_FN_STRUCT 0
+ONLINEXY_FN_STRUCT_END 
+DISPLAY_TIMES_SAVED_BEGIN 	
+DISPLAY_TIMES_SAVED_END 
+NUM_ONLINE_PVLOOP_STRUCT 0, 0, 1
+NUM_ONLINE_PVLOOP_CH_VCTR, 
+NUM_ONLINE_PVLOOP_PARAM_VCTR, 1.0000000000000000, 60.0000000000000000, 50.0000000000000000, 
+NUM_ONLINE_PVLOOP_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_PVLOOP_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+ONLINE_PVLOOP_STRUCT_END 
+NUM_ONLINE_BP_STRUCT 0, 0, 1
+NUM_ONLINE_BP_CH_VCTR, 
+NUM_ONLINE_BP_PARAM_VCTR, 
+NUM_ONLINE_BP_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_BP_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+ONLINE_BP_STRUCT_END 
+NUM_ONLINE_METABOLIC_STRUCT 0, 0, 1
+NUM_ONLINE_METABOLIC_CH_VCTR, 
+NUM_ONLINE_METABOLIC_PARAM_VCTR, 
+NUM_ONLINE_METABOLIC_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_METABOLIC_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
+ONLINE_METABOLIC_STRUCT_END 
+NUM_ONLINE_MIXING_CHAMBER_STRUCT 0, 0, 1
+NUM_ONLINE_MIXING_CHAMBER_CH_VCTR, 
+NUM_ONLINE_MIXING_CHAMBER_PARAM_VCTR, 
+NUM_ONLINE_MIXING_CHAMBER_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_MIXING_CHAMBER_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+ONLINE_MIXING_CHAMBER_STRUCT_END 
+NUM_ONLINE_OSB_STRUCT 0, 0, 1
+NUM_ONLINE_OSB_CH_VCTR, 
+NUM_ONLINE_OSB_PARAM_VCTR, 
+NUM_ONLINE_OSB_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_OSB_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+ONLINE_OSB_STRUCT_END 
+BEGIN_OFFLINE_ANALYSIS_SETTINGS 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 0: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 1: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 2: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 3: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 4: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 5: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 6: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 7: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 8: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 9: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 10: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 11: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 12: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 13: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+    BEGIN_OFFLINE_CALCULATION_DATA: 4294967295: 0: 14: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: 4294967295: : 
+END_OFFLINE_CALCULATION_DATA 
+END_OFFLINE_ANALYSIS_SETTINGS 
+NUM_ONLINE_BP_STRUCT_11, 1, 1
+NUM_ONLINE_BP_CH_VCTR, 
+NUM_ONLINE_BP_PARAM_VCTR, 
+NUM_ONLINE_BP_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_BP_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+ONLINE_BP_STRUCT_END 
+NUM_ONLINE_BP_STRUCT_21, 1, 1
+NUM_ONLINE_BP_CH_VCTR, 
+NUM_ONLINE_BP_PARAM_VCTR, 
+NUM_ONLINE_BP_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_BP_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+ONLINE_BP_STRUCT_END 
+NUM_ONLINE_BP_STRUCT_31, 1, 1
+NUM_ONLINE_BP_CH_VCTR, 
+NUM_ONLINE_BP_PARAM_VCTR, 
+NUM_ONLINE_BP_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_BP_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+ONLINE_BP_STRUCT_END 
+NUM_ONLINE_BP_STRUCT_41, 1, 1
+NUM_ONLINE_BP_CH_VCTR, 
+NUM_ONLINE_BP_PARAM_VCTR, 
+NUM_ONLINE_BP_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_BP_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+ONLINE_BP_STRUCT_END 
+NUM_ONLINE_BP_STRUCT_51, 1, 1
+NUM_ONLINE_BP_CH_VCTR, 
+NUM_ONLINE_BP_PARAM_VCTR, 
+NUM_ONLINE_BP_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_BP_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+ONLINE_BP_STRUCT_END 
+NUM_ONLINE_BP_STRUCT_61, 1, 1
+NUM_ONLINE_BP_CH_VCTR, 
+NUM_ONLINE_BP_PARAM_VCTR, 
+NUM_ONLINE_BP_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_BP_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+ONLINE_BP_STRUCT_END 
+NUM_ONLINE_BP_STRUCT_71, 1, 1
+NUM_ONLINE_BP_CH_VCTR, 
+NUM_ONLINE_BP_PARAM_VCTR, 
+NUM_ONLINE_BP_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_BP_VALUES_USED_VCTR, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+ONLINE_BP_STRUCT_END 
+BEGIN_StimRespMeasurementSettings:00.00000000000000000.0000000000000000
+END_StimRespMeasurementSettings:
+BEGIN_IMU_Settings:0
+END_IMU_Settings:
+NUM_ONLINE_SAMC_STRUCT 0, 0, 1
+NUM_ONLINE_SAMC_CH_VCTR, 
+NUM_ONLINE_SAMC_PARAM_VCTR, 
+NUM_ONLINE_SAMC_WIDTH_VCTR, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 
+NUM_ONLINE_SAMC_VALUES_USED_VCTR, 0, 1, 2, 3, 
+ONLINE_SAMC_STRUCT_END 
+END_FILE
+BEGIN_TEXT_IMPORT_PARAMETERS
+TEXT_IMPORT_SETTING1^ 2^ 1^ 1^ 1^ 100.0000000000000000^ 100.0000000000000000^ 0^ 0^ 
+TEXT_IMPORT_SETTING_DELIMITERS^                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+END_TEXT_IMPORT_PARAMETERS

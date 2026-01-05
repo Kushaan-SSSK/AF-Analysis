@@ -1,0 +1,1021 @@
+VERSION:	4
+BEGIN_STATES
+0,	0,	Fire,	Fire,	-2
+0,	1,	Stop,	Stop,	-2
+0,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+0,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+0,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+0,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+0,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+0,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+0,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+0,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+0,	12,	Increment Num Steps,	Increment Num Steps,	-2
+0,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+0,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+0,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+0,	16,	Increment Step Width,	Increment Step Width,	-2
+0,	17,	Decrement Step Width,	Decrement Step Width,	-2
+0,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+0,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+0,	20,	Increment Frequency,	Increment Frequency,	-2
+0,	21,	Decrement Frequency,	Decrement Frequency,	-2
+0,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+0,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+0,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+0,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+0,	26,	Increment Num Trains,	Increment Num Trains,	-2
+0,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+1,	0,	Fire,	Fire,	-2
+1,	1,	Stop,	Stop,	-2
+1,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+1,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+1,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+1,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+1,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+1,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+1,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+1,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+1,	12,	Increment Num Steps,	Increment Num Steps,	-2
+1,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+1,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+1,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+1,	16,	Increment Step Width,	Increment Step Width,	-2
+1,	17,	Decrement Step Width,	Decrement Step Width,	-2
+1,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+1,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+1,	20,	Increment Frequency,	Increment Frequency,	-2
+1,	21,	Decrement Frequency,	Decrement Frequency,	-2
+1,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+1,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+1,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+1,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+1,	26,	Increment Num Trains,	Increment Num Trains,	-2
+1,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+2,	0,	Fire,	Fire,	-2
+2,	1,	Stop,	Stop,	-2
+2,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+2,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+2,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+2,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+2,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+2,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+2,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+2,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+2,	12,	Increment Num Steps,	Increment Num Steps,	-2
+2,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+2,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+2,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+2,	16,	Increment Step Width,	Increment Step Width,	-2
+2,	17,	Decrement Step Width,	Decrement Step Width,	-2
+2,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+2,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+2,	20,	Increment Frequency,	Increment Frequency,	-2
+2,	21,	Decrement Frequency,	Decrement Frequency,	-2
+2,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+2,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+2,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+2,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+2,	26,	Increment Num Trains,	Increment Num Trains,	-2
+2,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+3,	0,	Fire,	Fire,	-2
+3,	1,	Stop,	Stop,	-2
+3,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+3,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+3,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+3,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+3,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+3,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+3,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+3,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+3,	12,	Increment Num Steps,	Increment Num Steps,	-2
+3,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+3,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+3,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+3,	16,	Increment Step Width,	Increment Step Width,	-2
+3,	17,	Decrement Step Width,	Decrement Step Width,	-2
+3,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+3,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+3,	20,	Increment Frequency,	Increment Frequency,	-2
+3,	21,	Decrement Frequency,	Decrement Frequency,	-2
+3,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+3,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+3,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+3,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+3,	26,	Increment Num Trains,	Increment Num Trains,	-2
+3,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+4,	0,	Fire,	Fire,	-2
+4,	1,	Stop,	Stop,	-2
+4,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+4,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+4,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+4,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+4,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+4,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+4,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+4,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+4,	12,	Increment Num Steps,	Increment Num Steps,	-2
+4,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+4,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+4,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+4,	16,	Increment Step Width,	Increment Step Width,	-2
+4,	17,	Decrement Step Width,	Decrement Step Width,	-2
+4,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+4,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+4,	20,	Increment Frequency,	Increment Frequency,	-2
+4,	21,	Decrement Frequency,	Decrement Frequency,	-2
+4,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+4,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+4,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+4,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+4,	26,	Increment Num Trains,	Increment Num Trains,	-2
+4,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+5,	0,	Fire,	Fire,	-2
+5,	1,	Stop,	Stop,	-2
+5,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+5,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+5,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+5,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+5,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+5,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+5,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+5,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+5,	12,	Increment Num Steps,	Increment Num Steps,	-2
+5,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+5,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+5,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+5,	16,	Increment Step Width,	Increment Step Width,	-2
+5,	17,	Decrement Step Width,	Decrement Step Width,	-2
+5,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+5,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+5,	20,	Increment Frequency,	Increment Frequency,	-2
+5,	21,	Decrement Frequency,	Decrement Frequency,	-2
+5,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+5,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+5,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+5,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+5,	26,	Increment Num Trains,	Increment Num Trains,	-2
+5,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+6,	0,	Fire,	Fire,	-2
+6,	1,	Stop,	Stop,	-2
+6,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+6,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+6,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+6,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+6,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+6,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+6,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+6,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+6,	12,	Increment Num Steps,	Increment Num Steps,	-2
+6,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+6,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+6,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+6,	16,	Increment Step Width,	Increment Step Width,	-2
+6,	17,	Decrement Step Width,	Decrement Step Width,	-2
+6,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+6,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+6,	20,	Increment Frequency,	Increment Frequency,	-2
+6,	21,	Decrement Frequency,	Decrement Frequency,	-2
+6,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+6,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+6,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+6,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+6,	26,	Increment Num Trains,	Increment Num Trains,	-2
+6,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+7,	0,	Fire,	Fire,	-2
+7,	1,	Stop,	Stop,	-2
+7,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+7,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+7,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+7,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+7,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+7,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+7,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+7,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+7,	12,	Increment Num Steps,	Increment Num Steps,	-2
+7,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+7,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+7,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+7,	16,	Increment Step Width,	Increment Step Width,	-2
+7,	17,	Decrement Step Width,	Decrement Step Width,	-2
+7,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+7,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+7,	20,	Increment Frequency,	Increment Frequency,	-2
+7,	21,	Decrement Frequency,	Decrement Frequency,	-2
+7,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+7,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+7,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+7,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+7,	26,	Increment Num Trains,	Increment Num Trains,	-2
+7,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+8,	0,	Fire,	Fire,	-2
+8,	1,	Stop,	Stop,	-2
+8,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+8,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+8,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+8,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+8,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+8,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+8,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+8,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+8,	12,	Increment Num Steps,	Increment Num Steps,	-2
+8,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+8,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+8,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+8,	16,	Increment Step Width,	Increment Step Width,	-2
+8,	17,	Decrement Step Width,	Decrement Step Width,	-2
+8,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+8,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+8,	20,	Increment Frequency,	Increment Frequency,	-2
+8,	21,	Decrement Frequency,	Decrement Frequency,	-2
+8,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+8,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+8,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+8,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+8,	26,	Increment Num Trains,	Increment Num Trains,	-2
+8,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+9,	0,	Fire,	Fire,	-2
+9,	1,	Stop,	Stop,	-2
+9,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+9,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+9,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+9,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+9,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+9,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+9,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+9,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+9,	12,	Increment Num Steps,	Increment Num Steps,	-2
+9,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+9,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+9,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+9,	16,	Increment Step Width,	Increment Step Width,	-2
+9,	17,	Decrement Step Width,	Decrement Step Width,	-2
+9,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+9,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+9,	20,	Increment Frequency,	Increment Frequency,	-2
+9,	21,	Decrement Frequency,	Decrement Frequency,	-2
+9,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+9,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+9,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+9,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+9,	26,	Increment Num Trains,	Increment Num Trains,	-2
+9,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+10,	0,	Fire,	Fire,	-2
+10,	1,	Stop,	Stop,	-2
+10,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+10,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+10,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+10,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+10,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+10,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+10,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+10,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+10,	12,	Increment Num Steps,	Increment Num Steps,	-2
+10,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+10,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+10,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+10,	16,	Increment Step Width,	Increment Step Width,	-2
+10,	17,	Decrement Step Width,	Decrement Step Width,	-2
+10,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+10,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+10,	20,	Increment Frequency,	Increment Frequency,	-2
+10,	21,	Decrement Frequency,	Decrement Frequency,	-2
+10,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+10,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+10,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+10,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+10,	26,	Increment Num Trains,	Increment Num Trains,	-2
+10,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+11,	0,	Fire,	Fire,	-2
+11,	1,	Stop,	Stop,	-2
+11,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+11,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+11,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+11,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+11,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+11,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+11,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+11,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+11,	12,	Increment Num Steps,	Increment Num Steps,	-2
+11,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+11,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+11,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+11,	16,	Increment Step Width,	Increment Step Width,	-2
+11,	17,	Decrement Step Width,	Decrement Step Width,	-2
+11,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+11,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+11,	20,	Increment Frequency,	Increment Frequency,	-2
+11,	21,	Decrement Frequency,	Decrement Frequency,	-2
+11,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+11,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+11,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+11,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+11,	26,	Increment Num Trains,	Increment Num Trains,	-2
+11,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+12,	0,	Fire,	Fire,	-2
+12,	1,	Stop,	Stop,	-2
+12,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+12,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+12,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+12,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+12,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+12,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+12,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+12,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+12,	12,	Increment Num Steps,	Increment Num Steps,	-2
+12,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+12,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+12,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+12,	16,	Increment Step Width,	Increment Step Width,	-2
+12,	17,	Decrement Step Width,	Decrement Step Width,	-2
+12,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+12,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+12,	20,	Increment Frequency,	Increment Frequency,	-2
+12,	21,	Decrement Frequency,	Decrement Frequency,	-2
+12,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+12,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+12,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+12,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+12,	26,	Increment Num Trains,	Increment Num Trains,	-2
+12,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+13,	0,	Fire,	Fire,	-2
+13,	1,	Stop,	Stop,	-2
+13,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+13,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+13,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+13,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+13,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+13,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+13,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+13,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+13,	12,	Increment Num Steps,	Increment Num Steps,	-2
+13,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+13,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+13,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+13,	16,	Increment Step Width,	Increment Step Width,	-2
+13,	17,	Decrement Step Width,	Decrement Step Width,	-2
+13,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+13,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+13,	20,	Increment Frequency,	Increment Frequency,	-2
+13,	21,	Decrement Frequency,	Decrement Frequency,	-2
+13,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+13,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+13,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+13,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+13,	26,	Increment Num Trains,	Increment Num Trains,	-2
+13,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+14,	0,	Fire,	Fire,	-2
+14,	1,	Stop,	Stop,	-2
+14,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+14,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+14,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+14,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+14,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+14,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+14,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+14,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+14,	12,	Increment Num Steps,	Increment Num Steps,	-2
+14,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+14,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+14,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+14,	16,	Increment Step Width,	Increment Step Width,	-2
+14,	17,	Decrement Step Width,	Decrement Step Width,	-2
+14,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+14,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+14,	20,	Increment Frequency,	Increment Frequency,	-2
+14,	21,	Decrement Frequency,	Decrement Frequency,	-2
+14,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+14,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+14,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+14,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+14,	26,	Increment Num Trains,	Increment Num Trains,	-2
+14,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+15,	0,	Fire,	Fire,	-2
+15,	1,	Stop,	Stop,	-2
+15,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+15,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+15,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+15,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+15,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+15,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+15,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+15,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+15,	12,	Increment Num Steps,	Increment Num Steps,	-2
+15,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+15,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+15,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+15,	16,	Increment Step Width,	Increment Step Width,	-2
+15,	17,	Decrement Step Width,	Decrement Step Width,	-2
+15,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+15,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+15,	20,	Increment Frequency,	Increment Frequency,	-2
+15,	21,	Decrement Frequency,	Decrement Frequency,	-2
+15,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+15,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+15,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+15,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+15,	26,	Increment Num Trains,	Increment Num Trains,	-2
+15,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+16,	0,	Fire,	Fire,	-2
+16,	1,	Stop,	Stop,	-2
+16,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+16,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+16,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+16,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+16,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+16,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+16,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+16,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+16,	12,	Increment Num Steps,	Increment Num Steps,	-2
+16,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+16,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+16,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+16,	16,	Increment Step Width,	Increment Step Width,	-2
+16,	17,	Decrement Step Width,	Decrement Step Width,	-2
+16,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+16,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+16,	20,	Increment Frequency,	Increment Frequency,	-2
+16,	21,	Decrement Frequency,	Decrement Frequency,	-2
+16,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+16,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+16,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+16,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+16,	26,	Increment Num Trains,	Increment Num Trains,	-2
+16,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+17,	0,	Fire,	Fire,	-2
+17,	1,	Stop,	Stop,	-2
+17,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+17,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+17,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+17,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+17,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+17,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+17,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+17,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+17,	12,	Increment Num Steps,	Increment Num Steps,	-2
+17,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+17,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+17,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+17,	16,	Increment Step Width,	Increment Step Width,	-2
+17,	17,	Decrement Step Width,	Decrement Step Width,	-2
+17,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+17,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+17,	20,	Increment Frequency,	Increment Frequency,	-2
+17,	21,	Decrement Frequency,	Decrement Frequency,	-2
+17,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+17,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+17,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+17,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+17,	26,	Increment Num Trains,	Increment Num Trains,	-2
+17,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+18,	0,	Fire,	Fire,	-2
+18,	1,	Stop,	Stop,	-2
+18,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+18,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+18,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+18,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+18,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+18,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+18,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+18,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+18,	12,	Increment Num Steps,	Increment Num Steps,	-2
+18,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+18,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+18,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+18,	16,	Increment Step Width,	Increment Step Width,	-2
+18,	17,	Decrement Step Width,	Decrement Step Width,	-2
+18,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+18,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+18,	20,	Increment Frequency,	Increment Frequency,	-2
+18,	21,	Decrement Frequency,	Decrement Frequency,	-2
+18,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+18,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+18,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+18,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+18,	26,	Increment Num Trains,	Increment Num Trains,	-2
+18,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+19,	0,	Fire,	Fire,	-2
+19,	1,	Stop,	Stop,	-2
+19,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+19,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+19,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+19,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+19,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+19,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+19,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+19,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+19,	12,	Increment Num Steps,	Increment Num Steps,	-2
+19,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+19,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+19,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+19,	16,	Increment Step Width,	Increment Step Width,	-2
+19,	17,	Decrement Step Width,	Decrement Step Width,	-2
+19,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+19,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+19,	20,	Increment Frequency,	Increment Frequency,	-2
+19,	21,	Decrement Frequency,	Decrement Frequency,	-2
+19,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+19,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+19,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+19,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+19,	26,	Increment Num Trains,	Increment Num Trains,	-2
+19,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+20,	0,	Fire,	Fire,	-2
+20,	1,	Stop,	Stop,	-2
+20,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+20,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+20,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+20,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+20,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+20,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+20,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+20,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+20,	12,	Increment Num Steps,	Increment Num Steps,	-2
+20,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+20,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+20,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+20,	16,	Increment Step Width,	Increment Step Width,	-2
+20,	17,	Decrement Step Width,	Decrement Step Width,	-2
+20,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+20,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+20,	20,	Increment Frequency,	Increment Frequency,	-2
+20,	21,	Decrement Frequency,	Decrement Frequency,	-2
+20,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+20,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+20,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+20,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+20,	26,	Increment Num Trains,	Increment Num Trains,	-2
+20,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+21,	0,	Fire,	Fire,	-2
+21,	1,	Stop,	Stop,	-2
+21,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+21,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+21,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+21,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+21,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+21,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+21,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+21,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+21,	12,	Increment Num Steps,	Increment Num Steps,	-2
+21,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+21,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+21,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+21,	16,	Increment Step Width,	Increment Step Width,	-2
+21,	17,	Decrement Step Width,	Decrement Step Width,	-2
+21,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+21,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+21,	20,	Increment Frequency,	Increment Frequency,	-2
+21,	21,	Decrement Frequency,	Decrement Frequency,	-2
+21,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+21,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+21,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+21,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+21,	26,	Increment Num Trains,	Increment Num Trains,	-2
+21,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+22,	0,	Fire,	Fire,	-2
+22,	1,	Stop,	Stop,	-2
+22,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+22,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+22,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+22,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+22,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+22,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+22,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+22,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+22,	12,	Increment Num Steps,	Increment Num Steps,	-2
+22,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+22,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+22,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+22,	16,	Increment Step Width,	Increment Step Width,	-2
+22,	17,	Decrement Step Width,	Decrement Step Width,	-2
+22,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+22,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+22,	20,	Increment Frequency,	Increment Frequency,	-2
+22,	21,	Decrement Frequency,	Decrement Frequency,	-2
+22,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+22,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+22,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+22,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+22,	26,	Increment Num Trains,	Increment Num Trains,	-2
+22,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+23,	0,	Fire,	Fire,	-2
+23,	1,	Stop,	Stop,	-2
+23,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+23,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+23,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+23,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+23,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+23,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+23,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+23,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+23,	12,	Increment Num Steps,	Increment Num Steps,	-2
+23,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+23,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+23,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+23,	16,	Increment Step Width,	Increment Step Width,	-2
+23,	17,	Decrement Step Width,	Decrement Step Width,	-2
+23,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+23,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+23,	20,	Increment Frequency,	Increment Frequency,	-2
+23,	21,	Decrement Frequency,	Decrement Frequency,	-2
+23,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+23,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+23,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+23,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+23,	26,	Increment Num Trains,	Increment Num Trains,	-2
+23,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+24,	0,	Fire,	Fire,	-2
+24,	1,	Stop,	Stop,	-2
+24,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+24,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+24,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+24,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+24,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+24,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+24,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+24,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+24,	12,	Increment Num Steps,	Increment Num Steps,	-2
+24,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+24,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+24,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+24,	16,	Increment Step Width,	Increment Step Width,	-2
+24,	17,	Decrement Step Width,	Decrement Step Width,	-2
+24,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+24,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+24,	20,	Increment Frequency,	Increment Frequency,	-2
+24,	21,	Decrement Frequency,	Decrement Frequency,	-2
+24,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+24,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+24,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+24,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+24,	26,	Increment Num Trains,	Increment Num Trains,	-2
+24,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+25,	0,	Fire,	Fire,	-2
+25,	1,	Stop,	Stop,	-2
+25,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+25,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+25,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+25,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+25,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+25,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+25,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+25,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+25,	12,	Increment Num Steps,	Increment Num Steps,	-2
+25,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+25,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+25,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+25,	16,	Increment Step Width,	Increment Step Width,	-2
+25,	17,	Decrement Step Width,	Decrement Step Width,	-2
+25,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+25,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+25,	20,	Increment Frequency,	Increment Frequency,	-2
+25,	21,	Decrement Frequency,	Decrement Frequency,	-2
+25,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+25,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+25,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+25,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+25,	26,	Increment Num Trains,	Increment Num Trains,	-2
+25,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+26,	0,	Fire,	Fire,	-2
+26,	1,	Stop,	Stop,	-2
+26,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+26,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+26,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+26,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+26,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+26,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+26,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+26,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+26,	12,	Increment Num Steps,	Increment Num Steps,	-2
+26,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+26,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+26,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+26,	16,	Increment Step Width,	Increment Step Width,	-2
+26,	17,	Decrement Step Width,	Decrement Step Width,	-2
+26,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+26,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+26,	20,	Increment Frequency,	Increment Frequency,	-2
+26,	21,	Decrement Frequency,	Decrement Frequency,	-2
+26,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+26,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+26,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+26,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+26,	26,	Increment Num Trains,	Increment Num Trains,	-2
+26,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+27,	0,	Fire,	Fire,	-2
+27,	1,	Stop,	Stop,	-2
+27,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+27,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+27,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+27,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+27,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+27,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+27,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+27,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+27,	12,	Increment Num Steps,	Increment Num Steps,	-2
+27,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+27,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+27,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+27,	16,	Increment Step Width,	Increment Step Width,	-2
+27,	17,	Decrement Step Width,	Decrement Step Width,	-2
+27,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+27,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+27,	20,	Increment Frequency,	Increment Frequency,	-2
+27,	21,	Decrement Frequency,	Decrement Frequency,	-2
+27,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+27,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+27,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+27,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+27,	26,	Increment Num Trains,	Increment Num Trains,	-2
+27,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+28,	0,	Fire,	Fire,	-2
+28,	1,	Stop,	Stop,	-2
+28,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+28,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+28,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+28,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+28,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+28,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+28,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+28,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+28,	12,	Increment Num Steps,	Increment Num Steps,	-2
+28,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+28,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+28,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+28,	16,	Increment Step Width,	Increment Step Width,	-2
+28,	17,	Decrement Step Width,	Decrement Step Width,	-2
+28,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+28,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+28,	20,	Increment Frequency,	Increment Frequency,	-2
+28,	21,	Decrement Frequency,	Decrement Frequency,	-2
+28,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+28,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+28,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+28,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+28,	26,	Increment Num Trains,	Increment Num Trains,	-2
+28,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+29,	0,	Fire,	Fire,	-2
+29,	1,	Stop,	Stop,	-2
+29,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+29,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+29,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+29,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+29,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+29,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+29,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+29,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+29,	12,	Increment Num Steps,	Increment Num Steps,	-2
+29,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+29,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+29,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+29,	16,	Increment Step Width,	Increment Step Width,	-2
+29,	17,	Decrement Step Width,	Decrement Step Width,	-2
+29,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+29,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+29,	20,	Increment Frequency,	Increment Frequency,	-2
+29,	21,	Decrement Frequency,	Decrement Frequency,	-2
+29,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+29,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+29,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+29,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+29,	26,	Increment Num Trains,	Increment Num Trains,	-2
+29,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+30,	0,	Fire,	Fire,	-2
+30,	1,	Stop,	Stop,	-2
+30,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+30,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+30,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+30,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+30,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+30,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+30,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+30,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+30,	12,	Increment Num Steps,	Increment Num Steps,	-2
+30,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+30,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+30,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+30,	16,	Increment Step Width,	Increment Step Width,	-2
+30,	17,	Decrement Step Width,	Decrement Step Width,	-2
+30,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+30,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+30,	20,	Increment Frequency,	Increment Frequency,	-2
+30,	21,	Decrement Frequency,	Decrement Frequency,	-2
+30,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+30,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+30,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+30,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+30,	26,	Increment Num Trains,	Increment Num Trains,	-2
+30,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+31,	0,	Fire,	Fire,	-2
+31,	1,	Stop,	Stop,	-2
+31,	2,	Increment Pulse Amplitude,	Increment Pulse Amplitude,	-2
+31,	3,	Decrement Pulse Amplitude,	Decrement Pulse Amplitude,	-2
+31,	4,	Increment Start Amplitude,	Increment Start Amplitude,	-2
+31,	5,	Decrement Start Amplitude,	Decrement Start Amplitude,	-2
+31,	6,	Increment Stop Amplitude,	Increment Stop Amplitude,	-2
+31,	7,	Decrement Stop Amplitude,	Decrement Stop Amplitude,	-2
+31,	8,	Increment Holding Potential,	Increment Holding Potential,	-2
+31,	9,	Decrement Holding Potential,	Decrement Holding Potential,	-2
+31,	12,	Increment Num Steps,	Increment Num Steps,	-2
+31,	13,	Decrement Num Steps,	Decrement Num Steps,	-2
+31,	14,	Increment Num Pulses,	Increment Num Pulses,	-2
+31,	15,	Decrement Num Pulses,	Decrement Num Pulses,	-2
+31,	16,	Increment Step Width,	Increment Step Width,	-2
+31,	17,	Decrement Step Width,	Decrement Step Width,	-2
+31,	18,	Increment Pulse Width,	Increment Pulse Width,	-2
+31,	19,	Decrement Pulse Width,	Decrement Pulse Width,	-2
+31,	20,	Increment Frequency,	Increment Frequency,	-2
+31,	21,	Decrement Frequency,	Decrement Frequency,	-2
+31,	22,	Increment Inter Step Duration,	Increment Inter Step Duration,	-2
+31,	23,	Decrement Inter Step Duration,	Decrement Inter Step Duration,	-2
+31,	24,	Increment InterTrain Duration,	Increment InterTrain Duration,	-2
+31,	25,	Decrement InterTrain Duration,	Decrement InterTrain Duration,	-2
+31,	26,	Increment Num Trains,	Increment Num Trains,	-2
+31,	27,	Decrement Num Trains,	Decrement Num Trains,	-2
+32,	1,	Update,	Update,	-2
+32,	2,	Resume Sequence,	Resume Sequence,	-2
+33,	0,	All On,	All On,	-2
+33,	1,	D0 On,	D0 On,	-2
+33,	2,	D1 On,	D1 On,	-2
+33,	3,	D2 On,	D2 On,	-2
+33,	4,	D3 On,	D3 On,	-2
+33,	5,	D4 On,	D4 On,	-2
+33,	6,	D5 On,	D5 On,	-2
+33,	7,	D6 On,	D6 On,	-2
+33,	8,	D7 On,	D7 On,	-2
+33,	9,	D8 On,	D8 On,	-2
+33,	10,	D9 On,	D9 On,	-2
+33,	11,	D10 On,	D10 On,	-2
+33,	12,	D11 On,	D11 On,	-2
+33,	13,	D12 On,	D12 On,	-2
+33,	14,	D13 On,	D13 On,	-2
+33,	15,	D14 On,	D14 On,	-2
+33,	16,	D15 On,	D15 On,	-2
+33,	17,	D16 On,	D16 On,	-2
+33,	18,	D17 On,	D17 On,	-2
+33,	19,	D18 On,	D18 On,	-2
+33,	20,	D19 On,	D19 On,	-2
+33,	21,	D20 On,	D20 On,	-2
+33,	22,	D21 On,	D21 On,	-2
+33,	23,	D22 On,	D22 On,	-2
+33,	24,	D23 On,	D23 On,	-2
+33,	25,	D24 On,	D24 On,	-2
+33,	26,	D25 On,	D25 On,	-2
+33,	27,	D26 On,	D26 On,	-2
+33,	28,	D27 On,	D27 On,	-2
+33,	29,	D28 On,	D28 On,	-2
+33,	30,	D29 On,	D29 On,	-2
+33,	31,	D30 On,	D30 On,	-2
+33,	32,	D31 On,	D31 On,	-2
+34,	0,	All Off,	All Off,	-2
+34,	1,	D0 Off,	D0 Off,	-2
+34,	2,	D1 Off,	D1 Off,	-2
+34,	3,	D2 Off,	D2 Off,	-2
+34,	4,	D3 Off,	D3 Off,	-2
+34,	5,	D4 Off,	D4 Off,	-2
+34,	6,	D5 Off,	D5 Off,	-2
+34,	7,	D6 Off,	D6 Off,	-2
+34,	8,	D7 Off,	D7 Off,	-2
+34,	9,	D8 Off,	D8 Off,	-2
+34,	10,	D9 Off,	D9 Off,	-2
+34,	11,	D10 Off,	D10 Off,	-2
+34,	12,	D11 Off,	D11 Off,	-2
+34,	13,	D12 Off,	D12 Off,	-2
+34,	14,	D13 Off,	D13 Off,	-2
+34,	15,	D14 Off,	D14 Off,	-2
+34,	16,	D15 Off,	D15 Off,	-2
+34,	17,	D16 Off,	D16 Off,	-2
+34,	18,	D17 Off,	D17 Off,	-2
+34,	19,	D18 Off,	D18 Off,	-2
+34,	20,	D19 Off,	D19 Off,	-2
+34,	21,	D20 Off,	D20 Off,	-2
+34,	22,	D21 Off,	D21 Off,	-2
+34,	23,	D22 Off,	D22 Off,	-2
+34,	24,	D23 Off,	D23 Off,	-2
+34,	25,	D24 Off,	D24 Off,	-2
+34,	26,	D25 Off,	D25 Off,	-2
+34,	27,	D26 Off,	D26 Off,	-2
+34,	28,	D27 Off,	D27 Off,	-2
+34,	29,	D28 Off,	D28 Off,	-2
+34,	30,	D29 Off,	D29 Off,	-2
+34,	31,	D30 Off,	D30 Off,	-2
+34,	32,	D31 Off,	D31 Off,	-2
+35,	0,	Mark 1,	Mark 1,	-1
+35,	1,	Mark 2,	Mark 2,	-1
+35,	2,	Mark 3,	Mark 3,	-1
+35,	3,	Mark 4,	Mark 4,	-1
+35,	4,	Mark 5,	Mark 5,	-1
+35,	5,	Mark 6,	Mark 6,	-1
+35,	6,	Mark 7,	Mark 7,	-1
+35,	7,	Mark 8,	Mark 8,	-1
+35,	8,	Mark 9,	Mark 9,	-1
+35,	9,	Mark 10,	Mark 10,	-1
+35,	10,	Mark 11,	Mark 11,	-1
+35,	11,	Mark 12,	Mark 12,	-1
+35,	12,	Mark 13,	Mark 13,	-1
+35,	13,	Mark 14,	Mark 14,	-1
+35,	14,	Mark 15,	Mark 15,	-1
+35,	15,	Mark 16,	Mark 16,	-1
+35,	16,	Mark 17,	Mark 17,	-1
+35,	17,	Mark 18,	Mark 18,	-1
+35,	18,	Mark 19,	Mark 19,	-1
+35,	19,	Mark 20,	Mark 20,	-1
+35,	20,	Mark 21,	Mark 21,	-1
+35,	21,	Mark 22,	Mark 22,	-1
+35,	22,	Mark 23,	Mark 23,	-1
+35,	23,	Mark 24,	Mark 24,	-1
+35,	24,	Mark 25,	Mark 25,	-1
+35,	25,	Mark 26,	Mark 26,	-1
+35,	26,	Mark 27,	Mark 27,	-1
+35,	27,	Mark 28,	Mark 28,	-1
+35,	28,	Mark 29,	Mark 29,	-1
+35,	29,	Mark 30,	Mark 30,	-1
+35,	30,	Mark 31,	Mark 31,	-1
+35,	31,	Mark 32,	Mark 32,	-1
+36,	0,	Message 1,	Message 1,	-2
+36,	1,	Message 2,	Message 2,	-2
+36,	2,	Message 3,	Message 3,	-2
+36,	3,	Message 4,	Message 4,	-2
+36,	4,	Message 5,	Message 5,	-2
+36,	5,	Message 6,	Message 6,	-2
+36,	6,	Message 7,	Message 7,	-2
+36,	7,	Message 8,	Message 8,	-2
+36,	8,	Message 9,	Message 9,	-2
+36,	9,	Message 10,	Message 10,	-2
+36,	10,	Message 11,	Message 11,	-2
+36,	11,	Message 12,	Message 12,	-2
+36,	12,	Message 13,	Message 13,	-2
+36,	13,	Message 14,	Message 14,	-2
+36,	14,	Message 15,	Message 15,	-2
+36,	15,	Message 16,	Message 16,	-2
+36,	16,	Message 17,	Message 17,	-2
+36,	17,	Message 18,	Message 18,	-2
+36,	18,	Message 19,	Message 19,	-2
+36,	19,	Message 20,	Message 20,	-2
+36,	20,	Message 21,	Message 21,	-2
+36,	21,	Message 22,	Message 22,	-2
+36,	22,	Message 23,	Message 23,	-2
+36,	23,	Message 24,	Message 24,	-2
+36,	24,	Message 25,	Message 25,	-2
+36,	25,	Message 26,	Message 26,	-2
+36,	26,	Message 27,	Message 27,	-2
+36,	27,	Message 28,	Message 28,	-2
+36,	28,	Message 29,	Message 29,	-2
+36,	29,	Message 30,	Message 30,	-2
+36,	30,	Message 31,	Message 31,	-2
+36,	31,	Message 32,	Message 32,	-2
+42,	0,	Application 1,	Application1.exe,	-2
+42,	1,	Application 2,	Application2.exe,	-2
+42,	2,	Application 3,	Application3.exe,	-2
+42,	3,	Application 4,	Application4.exe,	-2
+42,	4,	Application 5,	Application5.exe,	-2
+42,	5,	Application 6,	Application6.exe,	-2
+42,	6,	Application 7,	Application7.exe,	-2
+42,	7,	Application 8,	Application8.exe,	-2
+42,	8,	Application 9,	Application9.exe,	-2
+42,	9,	Application 10,	Application10.exe,	-2
+42,	10,	Application 11,	Application11.exe,	-2
+42,	11,	Application 12,	Application12.exe,	-2
+42,	12,	Application 13,	Application13.exe,	-2
+42,	13,	Application 14,	Application14.exe,	-2
+42,	14,	Application 15,	Application15.exe,	-2
+42,	15,	Application 16,	Application16.exe,	-2
+43,	984,	Paired File Extension.1,	Paired File Extension.1,	-2
+43,	985,	Paired File Extension.2,	Paired File Extension.2,	-2
+43,	986,	Paired File Extension.3,	Paired File Extension.3,	-2
+43,	987,	Paired File Extension.4,	Paired File Extension.4,	-2
+43,	988,	Paired File Extension.5,	Paired File Extension.5,	-2
+43,	990,	Wildcard media1,	Wildcard media1,	-2
+43,	991,	Wildcard media2,	Wildcard media2,	-2
+43,	992,	Wildcard media3,	Wildcard media3,	-2
+43,	993,	Wildcard media4,	Wildcard media4,	-2
+43,	994,	Wildcard media5,	Wildcard media5,	-2
+43,	995,	Random tiff,	Random tiff,	-2
+43,	996,	Random bmp,	Random bmp,	-2
+43,	997,	Random gif,	Random gif,	-2
+43,	998,	Random png,	Random png,	-2
+43,	999,	Random jpg,	Random jpg,	-2
+44,	0,	Black,	Black,	-2
+44,	1,	Blue,	Blue,	-2
+44,	2,	Cyan,	Cyan,	-2
+44,	3,	Green,	Green,	-2
+44,	4,	Yellow,	Yellow,	-2
+44,	5,	Light Grey,	Light Grey,	-2
+44,	6,	Red,	Red,	-2
+44,	7,	White,	White,	-2
+48,	0,	Wait for Event 1,	Wait for Event 1,	-2
+48,	1,	Wait for Event 2,	Wait for Event 2,	-2
+48,	2,	Wait for Event 3,	Wait for Event 3,	-2
+48,	3,	Wait for Event 4,	Wait for Event 4,	-2
+48,	100,	Timeout(s) 1,	Timeout(s) 1,	-2
+48,	101,	Timeout(s) 2,	Timeout(s) 2,	-2
+48,	102,	Timeout(s) 3,	Timeout(s) 3,	-2
+48,	103,	Timeout(s) 4,	Timeout(s) 4,	-2
+49,	0,	Enable Gazepoint Messages,	Enable Gazepoint Messages,	-2
+END_STATES
+END_ALL_SEQUENCES
+BEGIN_MARKS
+END_MARKS
+BEGIN_EVENT_VECTOR
+END_EVENT_VECTOR
+END_FILE
