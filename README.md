@@ -81,7 +81,7 @@ python Analysis_Scripts/train_classifier.py
 *   `rf_feature_importance.png`: Bar chart of the top 20 features that predict the human diagnosis.
 *   `rf_feature_importance.csv`: Exact importance scores.
 
-### Step 4: ROC Analysis (`Verification_Scripts/run_roc_analysis.py`)
+### Step 4: ROC Analysis (`Analysis_Scripts/run_roc_analysis.py`)
 Generates ROC curves to test the performance of specific metrics (like `pRR_3.25`) against the manual ground truth.
 *   **Input**: `GroundtruthverifiedEKGData/*.xls` (Raw Signals) + `EKG_Annotations.xlsx` (Labels).
 

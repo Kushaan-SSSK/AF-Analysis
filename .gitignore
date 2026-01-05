@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+Results/
+Verification_Plots/
+Results_Verification/
+*.zip
