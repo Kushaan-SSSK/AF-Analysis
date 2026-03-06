@@ -107,7 +107,8 @@ def generate_hrv_plots():
         if is_af and af_type == 'paroxysmal':
             if not eps: return 'AF'
             for ep_s, ep_e in eps:
-                if (w_start < ep_e) and (w_end > ep_s): return 'AF'
+                overlap = max(0, min(w_end, ep_e) - max(w_start, ep_s))
+                if overlap >= 5.0: return 'AF'
 
             return 'No-AF'
 

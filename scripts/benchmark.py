@@ -61,12 +61,11 @@ def run_benchmark():
         if not is_af: return False
         if af_type == 'sustained': return True
         if af_type == 'paroxysmal':
-
             if not episodes: return True
             for ep_s, ep_e in episodes:
-                if (w_start < ep_e) and (w_end > ep_s):
+                overlap = max(0, min(w_end, ep_e) - max(w_start, ep_s))
+                if overlap >= 5.0:
                     return True
-
             return False
         return None
 
