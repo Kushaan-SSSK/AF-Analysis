@@ -1,0 +1,10 @@
+pandas
+numpy
+scipy
+matplotlib
+neurokit2
+scikit-learn
+statsmodels
+openpyxl
+imbalanced-learn
+lazypredict
