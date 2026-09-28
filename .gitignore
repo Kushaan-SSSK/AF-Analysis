@@ -1,20 +1,7 @@
 __pycache__/
 *.pyc
-.DS_Store
-
-# Raw data — too large for git
-*.iwxdata
-*.iwxdata.zip
-*.xls
-*.xlsx
-!EKG_Annotations*.xlsx
-*.zip
-
-# Data directories
-EKG Recordings/
-
-# Per-file result CSVs are derivable by re-running run_analysis_pipeline.py
-Results/*_results.csv
-
-# Debug output files
-*.txt
+.venv/
+build/
+dist/
+*.log
+scores.csv

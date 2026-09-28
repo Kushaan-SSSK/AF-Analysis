@@ -1,85 +1,112 @@
-# Mouse EKG AF Detection
+# AF-EKG
 
-Detects Atrial Fibrillation (AF) in mouse EKG recordings using HRV feature extraction and a Balanced Random Forest classifier validated against expert manual annotations.
+AF-EKG is a Python tool for finding atrial fibrillation (AF) in mouse EKG recordings. It reads two-lead recordings exported from LabScribe (iWorx), removes the noise bursts these systems often pick up, scores each recording for AF and produces a review page where an investigator checks the flagged recordings, marks the AF sections and exports a final label.
 
-## Setup
+## Citation
+
+A paper describing the method is in preparation. Until then, please cite the dataset the model was built on:
+
+Sharma K, Wang X, Li J, Sweat M, Buzon S, De Felice A, Pu WT. *Atrial Fibrillation (AFib) Dataset.* Zenodo (2026). https://doi.org/10.5281/zenodo.23019834
+
+## Overview
+
+![Workflow](docs/figures/overview.png)
+
+Each recording is cut into 30 s blocks, starting at 10 s, and each block into eleven 10 s windows. For every window the tool finds the heartbeats, measures how irregular the beat-to-beat (RR) intervals are, and an XGBoost classifier scores how AF-like the window is. A recording's score is its highest window score.
+
+**Noise.** iWorx recordings often contain noise bursts of a few seconds that affect one lead at a time. Noise creates false beats, which look like an irregular rhythm. The tool checks each lead separately, using only beat shape and amplitude, never rhythm. It then reads every window from the cleaner lead and leaves out windows that are noisy in both.
+
+**Two modes.**
+
+| Mode | Reads | Threshold | Use it to |
+|---|---|---|---|
+| `balanced` | seconds 10 to 40 | 0.961 | get the most accurate call per recording |
+| `sensitive` | every 30 s block | 0.865 | screen many recordings and pass every possible AF to a reviewer |
+
+The sensitive mode scans the whole recording. This is what catches paroxysmal AF that starts after the first 40 s.
+
+**Performance.** Measured on the published dataset with cross-validation split by animal (245 recordings from 127 mice in three labs):
+- **Balanced mode:** recall 0.84 and specificity 0.95 (AUC 0.959).
+- **Sensitive mode:** recall 0.98 and specificity 0.72.
+
+## Installation
+
+Clone the repository and install the requirements into Python 3.10 or later:
 
 ```bash
+git clone https://github.com/Kushaan-SSSK/AF-Analysis.git
+cd AF-Analysis
 pip install -r requirements.txt
 ```
 
-Place raw data in the project root before running:
+## Basic requirements
 
 ```
-AF Analysis/
-├── EKG Recordings/              ← Raw iWorx exports (*_Export.xls or *_Export.txt)
-└── EKG_Annotations (1).xlsx    ← Master annotation sheet with episode timestamps
+python>=3.10
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+xgboost==3.2.0
+neurokit2==0.2.13
+joblib==1.6.0
+pytest               # only for the tests
 ```
 
-## Project Structure
+## Usage
 
-```
-AF Analysis/
-├── scripts/
-│   ├── extract_features.py          # HRV extraction + sliding window pipeline
-│   ├── train.py                     # Balanced RF classifier (LOFO-CV)
-│   ├── benchmark.py                 # LazyPredict comparison across 26 classifiers
-│   ├── summarize.py                 # Dataset statistics
-│   ├── label_episodes.py            # Automatic paroxysmal episode boundary detection
-│   ├── run_pipeline.py              # Top-level entry point
-│   ├── visualize_trace.py           # EKG trace + peak visualization
-│   └── visualize_hrv.py             # HRV box plots (AF vs No-AF)
-│
-├── Experiments/                     # Experiment logs (000–004)
-├── Results/                         # Outputs: CSVs, plots
-├── EKG_Annotations (1).xlsx
-└── README.md
-```
+**Score recordings and review them.** Pass LabScribe text exports (`.txt` or `.xls`):
 
-## Workflow
-
-### Step 1: Dataset Summary
 ```bash
-python scripts/summarize.py
+python predict.py path/to/exports/*.txt --mode sensitive --csv review_list.csv --report review.html
 ```
-Outputs: `Results/dataset_summary.csv`, `Results/per_file_stats.csv`
 
-### Step 2: Feature Extraction
+`review_list.csv` lists every recording with both modes' scores and calls, the AF-like blocks, and a `flagged` column for the chosen mode. Open `review.html` in any browser.
+
+**Prepare your own recordings.** [docs/data_preparation.md](docs/data_preparation.md) walks through exporting from LabScribe, filling in the metadata sheet and running:
+
 ```bash
-python scripts/run_pipeline.py
+python prepare_dataset.py --exports path/to/exports --metadata metadata.csv --lab XX --out path/to/dataset
 ```
-Processes each recording through a 3Hz high-pass filter, sliding window peak detection (10s window, 2s step), and HRV feature calculation. Also appends temporal context features (`prev_*` / `next_*`) so the classifier can see whether neighboring windows are similarly irregular.
 
-Outputs: `Results/all_results_summary.csv`, `Results/af_vs_nonaf_pvalues.csv`
+**Review a whole dataset.**
 
-### Step 3: Train Classifier
 ```bash
-python scripts/train.py
+python databank_report.py --databank path/to/dataset --out databank_report.html
 ```
-Trains a Balanced Random Forest using Leave-One-File-Out cross-validation. Evaluates BalancedRF, XGBoost, and a soft-voting ensemble. Picks the model with the highest PR-AUC and applies a decision threshold optimized for Recall ≥ 0.80.
 
-For paroxysmal AF files, a window is only labeled AF if ≥ 5 seconds of the window overlaps with a known AF episode (prevents mislabeling boundary windows).
+**Retrain.**
 
-Outputs: `Results/rf_pr_curve.png`, `Results/rf_feature_importance.csv/png`
-
-### Step 4: Benchmark Models
 ```bash
-python scripts/benchmark.py
+python train.py --databank path/to/dataset
 ```
-Runs all standard sklearn classifiers via LazyPredict on an 80/20 file-stratified split for a quick comparison baseline.
 
-Output: `Results/lazypredict_benchmark.csv`
+This writes `models/af_model.joblib`, `cv_metrics.csv` and `cv_predictions.csv`. Retraining on the published dataset reproduces the model in `models/` exactly. `--no-noise-step` trains without the denoising step, and `--row-order-seed N` shuffles the training rows to check how much results depend on row order.
 
-## Features
+## Repository contents
 
-| Domain | Metrics |
+| File | Description |
 |---|---|
-| **Time domain** | `RR_Mean`, `SDNN`, `RMSSD`, `pNN20/50/100`, `HR_Mean`, `HR_Std` |
-| **Frequency domain** | `VLF`, `LF`, `HF`, `LF/HF` (Welch) |
-| **Nonlinear** | `SD1`, `SD2`, `CSI`, `CVI` (Poincaré) |
-| **Temporal context** | `prev_*`, `next_*` variants of all features above |
+| `af_ekg/features.py` | Reading exports, filtering, R-peak detection, RR features per window and block |
+| `af_ekg/noise.py` | Per-lead noise detection |
+| `af_ekg/denoise.py` | Choosing the cleaner lead per window, dropping noisy windows |
+| `af_ekg/model.py` | Classifier, the two modes, animal-grouped cross-validation, thresholds |
+| `af_ekg/pipeline.py` | Full analysis of one recording |
+| `af_ekg/report.py` | HTML review page |
+| `predict.py` | Scoring and review list |
+| `prepare_dataset.py` | Converts LabScribe exports and metadata into the dataset format |
+| `databank_report.py` | Review page for a whole dataset |
+| `train.py` | Cross-validation and training |
+| `models/` | Trained model and cross-validated predictions for both modes |
+| `docs/` | Data preparation guide, metadata template, README figure |
+| `tests/` | Tests |
 
-## Notes
+## Acknowledgements
 
-- Peak detection is tuned for mouse physiology (300–900 BPM).
-- Annotation matching is fuzzy — filenames are normalized before lookup to handle `.xls` vs `.iwxdata` differences.
+The recordings were collected by Jiajin Li, Sofia Buzon and Mason Sweat. Alessandro De Felice helped annotate the rhythms using his clinical training. Xuezhu Wang and William T. Pu supervised the project.
+
+## Support
+
+Questions, suggestions and bug reports are welcome in the [issue tracker](https://github.com/Kushaan-SSSK/AF-Analysis/issues).
+
+Scores are for research use and are not a clinical diagnosis.
